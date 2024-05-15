@@ -1,0 +1,31 @@
+.task-container {
+  background-color: #444;
+  margin: 8px 0;
+  padding: 15px 20px;
+  display: flex;
+  border-radius: 5px;
+  justify-content: space-between; /* Mantém o título e os botões separados */
+  color: #eee;
+  align-items: center;
+}
+
+.task-title {
+  flex: 1; /* Permite que o título da tarefa ocupe a maior parte do espaço, empurrando os ícones para a direita */
+  cursor: pointer;
+  font-size: 20px; /* Ajuste de acordo com sua preferência */
+}
+
+.buttons-container {
+  display: flex;
+  justify-content: flex-end; /* Alinha os botões à direita */
+  gap: 10px; /* Adiciona um espaço entre os botões */
+}
+
+.remove-task-button,
+.see-task-details-button {
+  background-color: transparent;
+  border: none;
+  color: chartreuse;
+  cursor: pointer;
+  font-size: 24px; /* Ajuste conforme necessário */
+}
